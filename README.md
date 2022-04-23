@@ -30,5 +30,9 @@ grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, -
   
 6. Install SQL developer (to view the DBs, table etc in the browser)
 - https://www.oracle.com/tools/downloads/sqldev-downloads.html
-- 
 - ![image](https://user-images.githubusercontent.com/45095003/164933714-1cc2be37-acc1-4c61-9037-411b2c1ed64e.png)
+
+7. Connection string:
+- https://www.connectionstrings.com/oracle/ 
+
+
