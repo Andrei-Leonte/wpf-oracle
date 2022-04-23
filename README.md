@@ -34,5 +34,5 @@ grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, -
 
 7. Connection string:
 - https://www.connectionstrings.com/oracle/ 
-
+- example ```Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=xe)));User Id=smith;Password=password;```
 
