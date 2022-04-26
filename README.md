@@ -44,5 +44,13 @@ Note: ** _5.1_ This will also create the schemas**
 - https://www.connectionstrings.com/oracle/ 
 - example ```Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=xe)));User Id=smith;Password=password;```
 
+8. Add migration
+- go to Infrastructure with cmd and follow the steps:
+- https://docs.microsoft.com/en-us/ef/core/cli/dotnet
+- add new migration using this cmd line of code:
+```dotnet ef migrations add InitialCreate```
+- update database:
+- ```dotnet ef database update```
+
 
 
